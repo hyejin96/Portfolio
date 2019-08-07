@@ -1,0 +1,58 @@
+.container {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.movieTable {
+	width:100%;
+  	border-bottom: 1px solid black;
+  	border-collapse: collapse;
+}
+
+.movieTable th {
+	 border-bottom: 1px solid black;
+}
+
+.movieTable th, .movieTable td {
+ 	 border-collapse: collapse;
+ 	 padding: 10px;
+}
+
+
+.movieTable td {
+ 	 padding: 20px 0;
+}
+
+.num {
+    text-align: center;
+}
+
+.fr {
+	text-align: center;
+}
+
+.movieTitle span{
+    color: #999;
+    font-size: 9pt;
+}
+
+.movieContent td:nth-child(3),
+.movieContent td:nth-child(4),
+.movieContent td:nth-child(5),
+.movieContent td:nth-child(6),
+.movieContent td:nth-child(7),
+.movieContent td:nth-child(8),
+.movieContent td:nth-child(9),
+.movieContent td:nth-child(10){
+	text-align : center;
+}
+
+.today {
+    margin: 20px;
+    font-size: 20pt;
+    font-weight: 600;
+    color: #464545;
+}

@@ -1,0 +1,109 @@
+.container {
+    width: 70%;
+    height: 100vh;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#t01{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    color: #363139;
+    height: 70%;
+    border-collapse: separate;
+ 	border-spacing: 0 30px;
+}
+
+.tr01 th{
+    width: 20%;
+    text-align: left;
+}
+
+.tr01 td{
+    width: 70%;
+}
+
+.tr01 td input[type="text"], 
+.tr01 td textarea {
+    width: 100%;
+}
+
+.tr01 td input:focus, .tr01 td textarea:focus {
+    outline: none;
+}
+
+.tr01 td input {
+    border: none;
+    border-bottom: 2px solid #878F7D;
+    height: 25px;
+}
+
+.tr01 td textarea {
+	height: 50vh;
+    border:none;
+    border: 1.5px solid #878F7D
+}
+
+/*파일 첨부*/
+.filebox input[type="file"] { 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0; 
+}
+
+.filebox label { 
+    display: inline-block; 
+    padding: .5em .75em; 
+    color: #999; 
+    font-size: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    background-color: #fdfdfd; 
+    cursor: pointer; 
+    border: 1px solid #ebebeb; 
+    border-bottom-color: #e2e2e2; 
+    border-radius: .25em; 
+} 
+
+.filebox label:hover {
+    border: 1px solid #9B656F;
+}
+
+.filebox .upload_name { 
+    display: inline-block; 
+    padding: .5em .75em; /* label의 패딩값과 일치 */ 
+    font-size: inherit; 
+    font-family: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    background-color: white; 
+    border-bottom-color: #e2e2e2; 
+    border-radius: .25em; 
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */ -moz-appearance: none; appearance: none; 
+}
+
+/*글작성버튼*/
+.writeButtonDIV {
+    text-align: right;
+}
+.writeButtonA{
+    margin-right: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.writeButtonA:hover{
+	border-color: gray;
+	background-color: #E7E9EE;
+}

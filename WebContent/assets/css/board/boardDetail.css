@@ -1,0 +1,84 @@
+
+.container {
+	width: 70%;
+	margin: 0 auto;	
+}
+
+table#t01 {
+    width: 100%;
+	margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+table#t02 {
+    margin: 0 auto;
+    width: 100%;
+	margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+	padding: 15px;
+	text-align: left;
+	border: 0;
+	text-align: center;
+}
+table#t01 tr, table#t02 tr {
+/*   border-top: 1px solid gray;
+    border-bottom: 1px solid gray;  */
+    border-bottom: 1px solid gray;
+}
+
+table#t01 tr:first-child, table#t02 tr:first-child  {
+    border-top: 2px solid gray;
+}
+
+table#t01 tr:last-child, table#t02 tr:last-child {
+    border-bottom: 2px solid gray;
+}
+
+.tmp01 {
+    width: 10%;
+}
+
+.boardTitle {
+	text-align: left;
+    padding-left: 30px;
+}
+
+.tmp01, .contentTitle {
+    background-color: #ECF3FA;
+}
+
+.tmp02 {
+    width: 40%;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.content {
+    text-align: left;
+    white-space: pre-line;
+}
+
+.divBox {
+	text-align: right;
+}
+.boardList {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boardList:hover {
+	background-color: #ECF3FA;
+}
+.moveBoard{
+	cursor: pointer;
+}
+

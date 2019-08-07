@@ -1,0 +1,111 @@
+/*댓글*/
+.commentTable {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.commentTable table {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.commentTh {
+	width: 10%;
+}
+
+.commentName {
+	width: 90%;
+}
+
+input[name = "name"] {
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.commentContent{
+    width: 80%;
+    height: 150px;
+}
+
+.commentContentText {
+    width: 90%;
+    float: left;
+    height: 100%;
+}
+
+.submitDiv {
+    width: 90%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.submitInput {
+    background: 0;
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.commentList {
+    width: 100%;
+    margin-bottom: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.commentListTable {
+    width: 100%;
+}
+
+.commentListTh {
+	width : 10%;
+}
+
+.commentListName, .commentListDate , .commentListContent{
+    text-align: left;
+}
+
+.commentListName, .commentListDate, .deleteTh{
+	padding: 15px 0px 15px 0px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.commentListName {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+ .commentListDate, .deleteTh, .deleteButton:link{ 
+    color: #999;
+    font-size: 12px;
+ }
+
+td.commentListName:after, td.commentListDate:after {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 1px;
+    width: 1px;
+    height: 11px;
+    margin: 0 7px 0 10px;
+    background: #ccc;
+    content: '';
+}
+
+.commentListContent textarea{
+    width: 100%;
+    border : none;
+    height: 100px;
+    resize: none;
+    background: white;
+}

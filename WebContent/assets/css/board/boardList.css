@@ -1,0 +1,78 @@
+table#t01 {
+    /*margin: 150px auto 20px;
+    margin: 0 auto;
+    width:70%;*/
+    width: 100%;
+    margin-bottom: 20px;
+}
+table#t01, #t01 th, #t01 td {
+    border-collapse: collapse;
+}
+#t01 th, #t01 td {
+	padding: 15px;
+	text-align: left;
+	border: 0;
+	text-align: center;
+}
+table#t01 th {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;  
+}
+#t01 .tr01:hover {
+    background-color: #ECF3FA;
+    cursor: pointer;
+}
+#cap01 {
+    margin: 20px 0;
+}
+.count {
+    float: left;
+    margin-bottom: 10px;
+}
+.selectDiv {
+    /*float: right;*/
+}
+
+.tr01:last-child {
+    border-bottom: 1px solid gray;
+}
+
+/*테이블 상단 타이틀*/
+.tr00 th:nth-child(1) {
+	width: 2%;
+}
+.tr00 th:nth-child(2) {
+	width: 20%;
+}
+
+.tr00 th:nth-child(3) {
+	width: 45%;
+}
+
+.tr00 th:nth-child(4) {
+	width: 20%;
+}
+
+.tr00 th:nth-child(5) {
+	width: 13%;
+}
+
+/*글쓰기, 삭제 버튼*/
+.wr_de_button {
+    position: relative;
+    left: 40%;
+}
+
+.writeButton {
+	margin: 10px;
+}
+
+.writeButton, .deleteButton {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.writeButton:hover, .deleteButton:hover {
+	background-color: #E7E9EE;
+}

@@ -1,0 +1,34 @@
+/*페이징*/
+div.pagingDiv {
+    /*margin: 0 auto;*/
+    /*margin-left : 50%;*/
+    position: relative;
+    margin-bottom: 50px;
+}
+ul.pagingUl {
+    list-style:none;
+    display:inline-block;
+}
+ul.pagingUl li.pagingLi {
+    float:left; /*가로로 정렬*/
+}
+ul.pagingUl li.pagingLi a {
+    float:left;
+    padding:4px;
+    margin-right:3px;
+    width:15px;
+    color:#000;
+    font:bold 12px tahoma;
+    border:1px solid #eee;
+    text-align:center;
+    text-decoration:none;
+}
+ul.pagingUl li.pagingLi a:hover, ul.pagingUl li.pagingLi a:focus{
+    color:#fff;
+    border:1px solid #ECF3FA;
+    background-color:#ECF3FA;
+}
+/*페이징 클릭시*/
+.on{
+	background-color: #E2E0EE;
+}
